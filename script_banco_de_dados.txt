@@ -1,0 +1,12 @@
+create Database banco;
+
+use banco;
+
+create table contatos(
+  nome varchar(100),
+  telefone varchar(100)
+
+);
+
+insert into contatos values('nome1','+5521..');
+insert into contatos values('nome2','+5511..');
